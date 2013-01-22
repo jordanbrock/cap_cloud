@@ -1,4 +1,4 @@
-require "cap_cloud/version"
+# require "cap_cloud/version"
 
 class CapCloud
   require 'fog'
