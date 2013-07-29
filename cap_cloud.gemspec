@@ -5,11 +5,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "cap_cloud"
-  gem.version       = "0.0.1"#CapCloud::VERSION
+  gem.version       = "0.0.2"#CapCloud::VERSION
   gem.authors       = ["Jordan Brock"]
   gem.email         = ["jordan@brock.id.au"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Finds EC2 instances based upon tags"
+  gem.summary       = "Finds EC2 instances based upon tags" 
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
